@@ -1,0 +1,26 @@
+{
+  "name": "webpack4",
+  "version": "1.0.0",
+  "description": "A Quick start with webpack 4",
+  "main": "index.js",
+  "author": "Ioodu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinadbo/webpack4-start.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chinadbo/webpack4-start/issues"
+  },
+  "homepage": "https://github.com/chinadbo/webpack4-start#readme",
+  "scripts": {
+    "start": "webpack",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.10"
+  }
+}
